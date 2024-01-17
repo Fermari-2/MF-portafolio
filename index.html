@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio-MF</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
 <body class="bg-black">
-    <nav class="bg-black flex justify-between items-center text-white py-6 px-8 sticky top-0">
+    <nav class="bg-black flex justify-between items-center text-white py-6 px-8 sticky top-0 z-10">
         <div><img class="w-[150px]" src="./iconos/logo-removebg-preview.png" alt=""></div>
         <div class="flex md:hidden">
             <a href="#">&#9776</a>
@@ -21,7 +23,7 @@
             <p class="hover:font-bold  hover:text-base hover:cursor-pointer">Contacts</p>
         </div>
     </nav>
-    <section class="flex justify-between items-center w-100% h-[500px] text-white px-[50px] gap-8 sm:px-[70px] bg-cover bg-right w-[100%] h-[500px]" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
+    <section class="md:flex justify-between items-center text-white px-[50px] gap-8 bg-cover bg-right" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
         
         <div class="flex flex-col justify-left items-left gap-3">
         <h2 class="text-red-800 text-[15px] md:text-[25px] font-bold">¡Hola! Soy María Fernanda Ramírez</h2>
@@ -30,19 +32,19 @@
             planificada y comunicativa. En búsqueda de nuevos desafíos.</p>
         <button class="py-2 items-left bg-red-800 w-[100px] h-[40px] rounded-lg transition ease-in-out delay-150 bg-red-800 hover:-translate-y-1 hover:scale-110 hover:bg-red-950 duration-300">About me</button>
         </div>
-        <img class="w-[250px] h-[300px] md:w-[350px] h-[450px] " src="./Foto-prin/Imagen_de_presentacion1-removebg-preview.png" alt="">
+        <img class= "w-[350px] h-[450px]md:hidden" src="./Foto-prin/Imagen_de_presentacion1-removebg-preview.png" alt="">
     </section>
 
 
     <section class="flex flex-col gap-8 justify-center items-center text-white">
         <h1 class= "pt-[20px] text-[35px] font-bold">Experience</h1>
-        <div class="flex justify-between items-center gap-[50px] ">
+        <div class="flex justify-between items-center gap-[50px]">
             <div class="bg-black w-[200px] h-[200px] flex flex-col justify-center items-center text-center">
             <h1 class="text-[100px] text-red-800 font-bold">4</h1>
             <p> Años en gestión de proyectos</p>
             </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-right py-5 px-8">
-            <div class=" bg-transparent flex flex-col justify-center items-center w-[200px] h-[120px] rounded-lg px-2 py-2 text-center text-white transition ease-in-out delay-150 bg-red-800 hover:-translate-y-1 hover:scale-110 hover:bg-neutral-900 duration-300">
+            <div class="bg-transparent flex flex-col justify-center items-center w-[200px] h-[120px] rounded-lg px-2 py-2 text-center text-white transition ease-in-out delay-150 bg-red-800 hover:-translate-y-1 hover:scale-110 hover:bg-neutral-900 duration-300">
                 <h1 class="text-[40px]">2 años</h1>
                 <p>Project Manager</p>
             </div>
@@ -64,7 +66,7 @@
         
     </section>
 
-    <section class="flex flex-col gap-8 justify-center items-center text-white bg-cover w-[100%] h-[500px]" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
+    <section class="flex flex-col gap-8 justify-center items-center text-white bg-cover" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
         <h1 class="text-[35px] md:text-[35px] font-bold">Skills</h1>
         <div class="grid grid-cols-1 gap-2 md:grid-cols-2 gap-8 justify-items-center py-5 px-8">
             <div class=" bg-red-800 flex flex-col justify-center items-center w-[200px] h-[120px] rounded-lg px-2 py-2 text-center text-white transition ease-in-out delay-150 bg-red-800 hover:-translate-y-1 hover:scale-110 hover:bg-neutral-900 duration-300">
@@ -112,7 +114,7 @@
     </div>
     </section>
 
-    <footer class="bg-neutral-900 w-[100%] h-[150px] flex flex-col justify-center items-center text-white gap-3">
+    <footer class="bg-neutral-900 flex flex-col justify-center items-center text-white gap-3">
             <h1 class="text-[25px] font-bold">Contacto</h1>
             <div class="flex gap-3 text-[25px]">
                 <a href="#"><i class="fa-brands fa-facebook"  style="color: #fffafa;"></i></a>
