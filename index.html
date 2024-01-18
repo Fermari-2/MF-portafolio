@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +16,14 @@
             <a href="#">&#9776</a>
         </div>
         <div class="md:flex gap-5 hidden">
-            <p class="hover:font-bold  hover:text-base hover:cursor-pointer">About me</p>
-            <p class="hover:font-bold  hover:text-base hover:cursor-pointer">Skill</p>
-            <p class="hover:font-bold  hover:text-base hover:cursor-pointer">Experience</p>
-            <p class="hover:font-bold  hover:text-base hover:cursor-pointer">Education & certifications</p>
-            <p class="hover:font-bold  hover:text-base hover:cursor-pointer">Contacts</p>
+            <a href="#About me" class="hover:font-bold  hover:text-base hover:cursor-pointer">About me</a>
+            <a href="#Skills" class="hover:font-bold  hover:text-base hover:cursor-pointer">Skills</a>
+            <a href="#Experience" class="hover:font-bold  hover:text-base hover:cursor-pointer">Experience</a>
+            <a href="#Education & certifications" class="hover:font-bold  hover:text-base hover:cursor-pointer">Education & certifications</a>
+            <a href="#Contact" class="hover:font-bold  hover:text-base hover:cursor-pointer">Contact</a>
         </div>
     </nav>
-    <section class="md:flex justify-between items-center text-white px-[50px] gap-8 bg-cover bg-right" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
+    <section class="md:flex justify-between items-center text-white px-[50px] gap-8 bg-cover bg-right" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);" id="About me">
         
         <div class="flex flex-col justify-left items-left gap-3">
         <h2 class="text-red-800 text-[15px] md:text-[25px] font-bold">¡Hola! Soy María Fernanda Ramírez</h2>
@@ -36,7 +36,7 @@
     </section>
 
 
-    <section class="flex flex-col gap-8 justify-center items-center text-white">
+    <section class="flex flex-col gap-8 justify-center items-center text-white" id="Experience">
         <h1 class= "pt-[20px] text-[35px] font-bold">Experience</h1>
         <div class="flex justify-between items-center gap-[50px]">
             <div class="bg-black w-[200px] h-[200px] flex flex-col justify-center items-center text-center">
@@ -66,7 +66,7 @@
         
     </section>
 
-    <section class="flex flex-col gap-8 justify-center items-center text-white bg-cover" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);">
+    <section class="flex flex-col gap-8 justify-center items-center text-white bg-cover" style="background-image: url(./Foto-prin/desktop-wallpaper-black-and-red-backgrounds-dark-red-aesthetic-1920x1080.jpg);" id="Skills">
         <h1 class="text-[35px] md:text-[35px] font-bold">Skills</h1>
         <div class="grid grid-cols-1 gap-2 md:grid-cols-2 gap-8 justify-items-center py-5 px-8">
             <div class=" bg-red-800 flex flex-col justify-center items-center w-[200px] h-[120px] rounded-lg px-2 py-2 text-center text-white transition ease-in-out delay-150 bg-red-800 hover:-translate-y-1 hover:scale-110 hover:bg-neutral-900 duration-300">
@@ -89,7 +89,7 @@
         </div>
     </section>
 
-    <section class="flex flex-col justify-center items-center text-white">
+    <section class="flex flex-col justify-center items-center text-white" id="Education & certifications">
         <h1 class="text-[35px] md:text-[35px] font-bold py-3">Education & certifications</h1>
         <div class="bg-neutral-900 w-[300px] h-[80px] py-2 px-2 border-8">
             <p class="text-center">Ingeniero de Producción, 2019, Universidad Simón Bolívar</p>
@@ -114,8 +114,8 @@
     </div>
     </section>
 
-    <footer class="bg-neutral-900 flex flex-col justify-center items-center text-white gap-3">
-            <h1 class="text-[25px] font-bold">Contacto</h1>
+    <footer class="bg-neutral-900 flex flex-col justify-center items-center text-white gap-3" id="Contact">
+            <h1 class="text-[25px] font-bold">Contact</h1>
             <div class="flex gap-3 text-[25px]">
                 <a href="#"><i class="fa-brands fa-facebook"  style="color: #fffafa;"></i></a>
                 <a href="#"><i class="fa-brands fa-square-instagram"  style="color: #fffafa;"></i></a>
